@@ -22,7 +22,6 @@
 #pragma once
 
 #define CONFIG_EXAMPLES_DIR "Creality/Ender-3/CrealityV422"
-/* ala ma kota
 
 /**
  * Configuration.h
@@ -1374,7 +1373,7 @@
 #define Z_HOMING_HEIGHT  4     // (mm) Minimal Z height before homing (G28) for Z clearance above the bed, clamps, ...
                                   // Be sure to have this much clearance over your Z_MAX_POS to prevent grinding.
 
-//#define Z_AFTER_HOMING  10      // (mm) Height to move to after homing Z
+#define Z_AFTER_HOMING  10      // (mm) Height to move to after homing Z
 
 // Direction of endstops when homing; 1=MAX, -1=MIN
 // :[-1,1]
