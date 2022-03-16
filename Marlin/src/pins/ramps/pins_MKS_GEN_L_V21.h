@@ -82,4 +82,8 @@
   #define E1_SERIAL_RX_PIN                    12
 #endif
 
+#ifndef FAN1_PIN      // dodatek Adama
+  #define FAN1_PIN     5
+#endif                        
+
 #include "pins_RAMPS.h"
