@@ -936,7 +936,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.6, 81.2, 408.24, 140.39 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 142.6 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -2122,7 +2122,7 @@
  * SD Card support is disabled by default. If your controller has an SD slot,
  * you must uncomment the following option or it won't work.
  */
-#define SDSUPPORT
+//#define SDSUPPORT
 
 /**
  * SD CARD: ENABLE CRC
